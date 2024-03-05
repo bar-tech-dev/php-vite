@@ -3,6 +3,7 @@
   <img src="readme/image-3.png" alt="drawing" height="100"/>
   <img src="readme/image-4.png" alt="drawing" height="100"/>
 </p>
+
 # Example PHP project with Vite and Vue
 
 ## Quick start
