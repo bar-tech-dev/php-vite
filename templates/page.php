@@ -14,17 +14,19 @@
 
 
 <body class="d-flex h-100 text-center text-white bg-dark">
-    <div class="cover-container d-flex w-100 h-75 p-3 mx-auto my-auto flex-column">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+
+            </div>
+        </header>
 
         <main class="px-3">
-            <h1>PHP-VITE</h1>
             <div id="app"></div>
         </main>
 
         <footer class="mt-auto text-white-50">
-        <p class="lead">
-          <a href="link" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Read article here</a>
-        </p>
+          
         </footer>
     </div>
 </body>
