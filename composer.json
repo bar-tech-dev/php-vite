@@ -1,0 +1,10 @@
+{
+    "prefer-stable": true,
+    "require": {
+        "vlucas/phpdotenv": "^4.2.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
