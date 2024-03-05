@@ -20,7 +20,6 @@ composer install
 To start edit copy .env.example to .env and change:
 ```
 ENVIRONMENT="dev"
-VITE_DEV_PORT="5173"
 ```
 
 Then install Node dependencies:
