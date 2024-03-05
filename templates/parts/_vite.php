@@ -1,4 +1,4 @@
-<?php if($_ENV['ENVIRONMENT'] === 'dev') : ?>
+<?php if(isset($_ENV['ENVIRONMENT']) && $_ENV['ENVIRONMENT'] === 'dev') : ?>
     <script type="module" src="http://localhost:5173/@vite/client"></script>
     <script type="module" src="http://localhost:5173/resources/js/app.js"></script>
     <script type="module" src="http://localhost:5173/resources/scss/app.scss"></script>
