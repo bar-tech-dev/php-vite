@@ -36,8 +36,6 @@ web/assets/
 web/uploads/
 web/resources/timestamp.*
 web/resources/images/*
-web/resources/css/*
-web/resources/js/*
 web/resources/*.svg
 web/resources/*.png
 web/resources/*.jpg
