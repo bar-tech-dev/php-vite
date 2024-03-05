@@ -1,8 +1,4 @@
 {
-  "resources/images/paris.jpg": {
-    "file": "images/paris.jpg",
-    "src": "resources/images/paris.jpg"
-  },
   "resources/js/app.js": {
     "file": "js/app.js",
     "src": "resources/js/app.js",
