@@ -7,16 +7,19 @@ import fs from 'fs';
 // https://vitejs.dev/config/
 export default ({ mode }) => {
     Object.assign(process.env, dotenv.parse(fs.readFileSync(`${__dirname}/.env`)));
-    const port = process.env.VITE_DEV_PORT;
+    const port = process.env.VITE_PORT;
 
     return defineConfig({
         plugins: [
+            // register vue plugin
             vue(),
+            // register live reload plugin, for refreshing the browser on file changes
             liveReload([
                 __dirname + '/templates/**/*.php',
             ]),
         ],
 
+        // config for the build
         build: {
             manifest: "manifest.json",
             outDir: 'web/resources/',
@@ -31,10 +34,10 @@ export default ({ mode }) => {
                 },
             },
         },
-
+        // config for the dev server
         server: {
             strictPort: true,
-            port: process.env.VITE_DEV_PORT,
+            port: port,
             hmr: {
                 host: 'localhost',
             },
